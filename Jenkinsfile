@@ -1,5 +1,5 @@
 pipeline {
-  agent an
+  agent any
   stages {
     stage('Build') {
       steps {
@@ -13,7 +13,7 @@ pipeline {
         echo 'Test Successful!'
       }
     }
-    stage('Deploy') {
+    stag('Deploy') {
       steps {
         echo 'Successfully deployed!'
       }
