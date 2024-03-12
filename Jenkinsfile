@@ -13,7 +13,7 @@ pipeline {
         echo 'Test Successful!'
       }
     }
-    stag('Deploy') {
+    stage('Deploy') {
       steps {
         echo 'Successfully deployed!'
       }
